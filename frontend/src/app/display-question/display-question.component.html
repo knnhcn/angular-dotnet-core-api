@@ -1,3 +1,8 @@
 <p>
-  Available questions:
+  Available questions loaded by HTTP Get:
 </p>
+<ul>
+  <li *ngFor="let question of list">
+    {{ question.text }}
+  </li>
+</ul>

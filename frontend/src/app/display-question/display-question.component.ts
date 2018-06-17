@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../api/api.service';
+import { QuestionVirtualModel } from '../virtualModels/question.virtualmodel';
 
 @Component({
   selector: 'display-question',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayQuestionComponent implements OnInit {
 
-  constructor() { }
+  list: QuestionVirtualModel[];
+
+  constructor(private apiService: ApiService) { }
 
   ngOnInit() {
+    this.apiService.getQuestions().subscribe((res: QuestionVirtualModel[]) => {
+      this.list = res;
+    }); 
   }
 
 }

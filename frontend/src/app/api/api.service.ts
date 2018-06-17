@@ -14,4 +14,8 @@ export class ApiService {
     return this.http.post(this.BASE_URL + '/quiz', question);
   }
 
+  getQuestions() {
+    return this.http.get(this.BASE_URL + '/quiz');
+  }
+
 }
