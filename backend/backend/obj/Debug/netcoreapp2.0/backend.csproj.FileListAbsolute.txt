@@ -1,0 +1,11 @@
+C:\Users\ken\Desktop\quiz\backend\backend\bin\Debug\netcoreapp2.0\backend.deps.json
+C:\Users\ken\Desktop\quiz\backend\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.json
+C:\Users\ken\Desktop\quiz\backend\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.dev.json
+C:\Users\ken\Desktop\quiz\backend\backend\bin\Debug\netcoreapp2.0\backend.dll
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.csprojAssemblyReference.cache
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfoInputs.cache
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfo.cs
+C:\Users\ken\Desktop\quiz\backend\backend\bin\Debug\netcoreapp2.0\backend.pdb
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.dll
+C:\Users\ken\Desktop\quiz\backend\backend\obj\Debug\netcoreapp2.0\backend.pdb

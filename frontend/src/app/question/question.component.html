@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-content>
+    <form>
+      <mat-form-field>
+        <input 
+            matInput 
+            [(ngModel)]="formQuestion.text"
+            placeholder="Your question" 
+            [formControl]="questionFormControl" 
+            [readonly]="isSaving">
+        <mat-error *ngIf="questionFormControl.hasError('required')">
+          Cannot be blank! <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="post(formQuestion)" [disabled]="isSaving">POST</button>
+    <mat-spinner [diameter]="20" *ngIf="isSaving"></mat-spinner>
+  </mat-card-actions>
+</mat-card>
+
+<mat-card>
+  <display-question></display-question>
+</mat-card>
